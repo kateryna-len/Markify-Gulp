@@ -28,10 +28,12 @@
           <li><a href="/blog">Blog</a></li>
         </ul>
       </nav>
-        <button class="btn_singUp">Sing Up</button>
+        <button class="btn_singUp" >Sing Up</button>
       </div>
       <div class="menu_mobile">
+        <button onclick="myFunction()">
         <img src="./image/src/burger-menu-icon.svg" alt="burger_menu"/>
+      </button>
       </div>
     </header>
 
@@ -176,6 +178,27 @@
     <p>Contact Us</p>
     <span>support@markify.com</span>
   </footer>
+
+  <div id="mobile" class="mobile-navBar">
+    <div class="header_container">
+      <img src="./image/src/logo_mobile.svg"/>
+      <button  id="demo" class="btn_close" onclick="myFunction()">
+        <img src="./image/src/close-button-mobile.svg"/>
+      </button>
+    </div>
+    <div class="nav_container_mobile">
+    <nav>
+      <ul>
+        <li><a href="/affiliates">Affiliates</a></li>
+        <li><a href="/advertisers">Advertisers</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/termsOfUse">Terms Of Use</a></li>
+      </ul>
+    </nav>
+    <button class="btn_singUp" >Sing Up</button>
+  </div>
+  </div>
 
   <script src="js/main.min.js"></script>
 </body>
